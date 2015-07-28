@@ -99,7 +99,7 @@ if s:is_dark
 
 	let s:gb.red    = ['fb4934', 167]     " 251-73-52
 	" let s:gb.green  = ['b8bb26', 142]     " 184-187-38
-	let s:gb.green  = ['f2f608', 142]
+	let s:gb.green  = ['ecf002', 150]
 	let s:gb.yellow = ['fabd2f', 214]     " 250-189-47
 	let s:gb.blue   = ['83a598', 109]     " 131-165-152
 	let s:gb.purple = ['d3869b', 175]     " 211-134-155
@@ -112,7 +112,7 @@ if s:is_dark
 		let s:gb.medium = ['928374', 8]
 		let s:gb.red    = ['fb4934', 9]
 		" let s:gb.green  = ['b8bb26', 10]
-		let s:gb.green  = ['f2f608', 10]
+		let s:gb.green  = ['ecf002', 10]
 		let s:gb.yellow = ['fabd2f', 11]
 		let s:gb.blue   = ['83a598', 12]
 		let s:gb.purple = ['d3869b', 13]
@@ -355,7 +355,7 @@ call s:HL('VertSplit', 'light4', 'dark2')
 call s:HL('WildMenu', 'blue', 'dark2', 'bold')
 
 " Directory names, special names in listing
-call s:HL('Directory', 'green', 'none', 'bold')
+call s:HL('Directory', 'blue', 'none', 'bold')
 
 " Titles for output from :set all, :autocmd, etc.
 call s:HL('Title', 'green', 'none', 'bold')
@@ -446,16 +446,16 @@ call s:HL('Constant',  'purple')
 call s:HL('Character', 'purple')
 " String constant: "this is a string"
 if g:gruvbox_italicize_strings == 0
-	call s:HL('String',  'green')
+	call s:HL('String',  'purple')
 else
-	call s:HL('String',  'green', 'none', 'italic')
+	call s:HL('String',  'purple', 'none', 'italic')
 endif
 " Boolean constant: TRUE, false
-call s:HL('Boolean',   'purple')
+call s:HL('Boolean',   'blue')
 " Number constant: 234, 0xff
-call s:HL('Number',    'purple')
+call s:HL('Number',    'blue')
 " Floating point constant: 2.3e10
-call s:HL('Float',     'purple')
+call s:HL('Float',     'blue')
 
 " Generic type
 call s:HL('Type', 'yellow')
@@ -948,3 +948,4 @@ endfunction
 " }}}
 
 " vim: set sw=3 ts=3 sts=3 noet tw=80 ft=vim fdm=marker:
+ vim: set sw=3 ts=3 sts=3 noet tw=80 ft=vim fdm=marker:
