@@ -98,7 +98,8 @@ if s:is_dark
 	let s:gb.light4_256 = ['a89984', 246] " 168-153-132
 
 	let s:gb.red    = ['fb4934', 167]     " 251-73-52
-	let s:gb.green  = ['b8bb26', 142]     " 184-187-38
+	" let s:gb.green  = ['b8bb26', 142]     " 184-187-38
+	let s:gb.green  = ['f2f608', 142]
 	let s:gb.yellow = ['fabd2f', 214]     " 250-189-47
 	let s:gb.blue   = ['83a598', 109]     " 131-165-152
 	let s:gb.purple = ['d3869b', 175]     " 211-134-155
@@ -110,7 +111,8 @@ if s:is_dark
 		let s:gb.light4 = ['a89984', 7]
 		let s:gb.medium = ['928374', 8]
 		let s:gb.red    = ['fb4934', 9]
-		let s:gb.green  = ['b8bb26', 10]
+		" let s:gb.green  = ['b8bb26', 10]
+		let s:gb.green  = ['f2f608', 10]
 		let s:gb.yellow = ['fabd2f', 11]
 		let s:gb.blue   = ['83a598', 12]
 		let s:gb.purple = ['d3869b', 13]
