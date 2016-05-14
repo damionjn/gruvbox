@@ -109,7 +109,7 @@ if s:is_dark
 	let s:gb.green  = ['82DB7D', 150]
 	let s:gb.yellow = ['fabd2f', 214]     " 250-189-47
 	" let s:gb.blue   = ['83a598', 109]     " 131-165-152
-	let s:gb.blue   = ['a9d1d4', 109]
+	let s:gb.blue   = ['B8D2D4', 109]
 	" let s:gb.purple = ['d3869b', 175]     " 211-134-155
 	let s:gb.purple = ['C9B4D1', 175]
 	let s:gb.aqua   = ['8ec07c', 108]     " 142-192-124
