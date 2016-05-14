@@ -99,7 +99,8 @@ if s:is_dark
 	let s:gb.light1 = ['EDE1C2', 223]
 	let s:gb.light2 = ['d5c4a1', 250]     " 213-196-161
 	let s:gb.light3 = ['bdae93', 248]     " 189-174-147
-	let s:gb.light4 = ['a89984', 246]     " 168-153-132
+	" let s:gb.light4 = ['a89984', 246]     " 168-153-132
+	let s:gb.light4 = ['928374', 246]
 
 	let s:gb.light4_256 = ['a89984', 246] " 168-153-132
 
