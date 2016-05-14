@@ -83,7 +83,7 @@ let s:gb = {}
 " damionvega note: Commented out colors are original gruvbox
 if s:is_dark
 	" let s:gb.dark0  = ['282828', 235]     " 40-40-40
-	let s:gb.dark0  = ['303030', 235]
+	let s:gb.dark0  = ['353535', 235]
 	" let s:gb.dark1  = ['3c3836', 237]     " 60-56-54
 	let s:gb.dark1  = ['404040', 237]
 	let s:gb.dark2  = ['504945', 239]     " 80-73-69
