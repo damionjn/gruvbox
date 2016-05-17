@@ -583,16 +583,16 @@ hi! link Constant GruvboxPurple
 hi! link Character GruvboxPurple
 " String constant: "this is a string"
 if g:gruvbox_improved_strings == 0
-  call s:HL('String',  s:green, s:none, s:italicize_strings)
+  call s:HL('String',  s:purple, s:none, s:italicize_strings)
 else
   call s:HL('String',  s:bg1, s:fg1, s:italicize_strings)
 endif
 " Boolean constant: TRUE, false
-hi! link Boolean GruvboxPurple
+hi! link Boolean GruvboxBlue
 " Number constant: 234, 0xff
-hi! link Number GruvboxPurple
+hi! link Number GruvboxBlue
 " Floating point constant: 2.3e10
-hi! link Float GruvboxPurple
+hi! link Float GruvboxBlue
 
 " Generic type
 hi! link Type GruvboxYellow
