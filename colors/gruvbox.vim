@@ -491,10 +491,10 @@ call s:HL('VertSplit', s:fg4, s:vert_split)
 call s:HL('WildMenu', s:blue, s:bg2, s:bold)
 
 " Directory names, special names in listing
-hi! link Directory GruvboxGreenBold
+hi! link Directory GruvboxBlueBold
 
 " Titles for output from :set all, :autocmd, etc.
-hi! link Title GruvboxGreenBold
+hi! link Title GruvboxFg1
 
 " Error messages on the command line
 call s:HL('ErrorMsg',   s:vim_bg, s:red, s:bold)
@@ -1133,10 +1133,10 @@ call s:HL('markdownItalic', s:fg3, s:none, s:italic)
 
 hi! link markdownH1 GruvboxGreenBold
 hi! link markdownH2 GruvboxGreenBold
-hi! link markdownH3 GruvboxYellowBold
-hi! link markdownH4 GruvboxYellowBold
-hi! link markdownH5 GruvboxYellow
-hi! link markdownH6 GruvboxYellow
+hi! link markdownH3 GruvboxGreenBold
+hi! link markdownH4 GruvboxGreenBold
+hi! link markdownH5 GruvboxGreen
+hi! link markdownH6 GruvboxGreen
 
 hi! link markdownCode GruvboxAqua
 hi! link markdownCodeBlock GruvboxAqua
