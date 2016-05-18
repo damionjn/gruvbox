@@ -1156,7 +1156,7 @@ hi! link markdownHeadingDelimiter GruvboxOrange
 hi! link markdownUrl GruvboxPurple
 hi! link markdownUrlTitleDelimiter GruvboxGreen
 
-call s:HL('markdownLinkText', s:yellow, s:none, s:underline)
+call s:HL('markdownLinkText', s:blue, s:none, s:underline)
 hi! link markdownIdDeclaration markdownLinkText
 
 " }}}
