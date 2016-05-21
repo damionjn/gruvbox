@@ -1138,9 +1138,9 @@ hi! link markdownH4 GruvboxGreenBold
 hi! link markdownH5 GruvboxGreen
 hi! link markdownH6 GruvboxGreen
 
-hi! link markdownCode GruvboxFg1
-hi! link markdownCodeBlock GruvboxFg1
-hi! link markdownCodeDelimiter GruvboxAqua
+" hi! link markdownCode GruvboxFg1
+" hi! link markdownCodeBlock GruvboxFg1
+" hi! link markdownCodeDelimiter GruvboxAqua
 
 hi! link markdownBlockquote GruvboxGray
 hi! link markdownListMarker GruvboxGray
