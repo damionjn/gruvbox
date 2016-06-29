@@ -1142,7 +1142,7 @@ hi! link markdownCode GruvboxFg1
 hi! link markdownCodeBlock GruvboxFg1
 hi! link markdownCodeDelimiter GruvboxAqua
 
-hi! link markdownBlockquote GruvboxGray
+hi! link markdownBlockquote GruvboxFg4
 hi! link markdownListMarker GruvboxGray
 hi! link markdownOrderedListMarker GruvboxGray
 hi! link markdownRule GruvboxGray
