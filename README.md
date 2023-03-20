@@ -1,11 +1,10 @@
-## damionvega changes
+## Fork changes
 - Green lightened
 - Aqua lightened
 - Purple lightened
-- Strings: green -> purple
-- Numbers: purple -> blue
+- Strings: green → purple
+- Numbers: purple → blue
 
-Screenshot:
 ![With changes](https://cloud.githubusercontent.com/assets/7221494/15339361/5aff2310-1c41-11e6-9ae8-dfcf7d17339e.png)
 
 # Original gruvbox readme
